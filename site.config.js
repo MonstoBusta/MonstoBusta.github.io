@@ -1,7 +1,7 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "MonstoBusta",
+    name: "Maximus Kim",
     image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "Sound Designer",
     bio: "Hello! My name is Max. I go by MonstoBusta online.",
@@ -29,7 +29,7 @@ const CONFIG = {
 
   // blog setting (required)
   blog: {
-    title: "maximuskimsound",
+    title: "Maximus Kim Sound",
     description: "welcome to morethan-log!",
     theme: "dark"
   },
