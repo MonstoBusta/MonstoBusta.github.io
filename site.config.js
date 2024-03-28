@@ -7,7 +7,7 @@ const CONFIG = {
     role: "Sound Designer",
     bio: "Hello! My name is Max. I go by MonstoBusta online.",
     email: "monstobusta@gmail.com",
-    linkedin: "MaximusKim",
+    linkedin: "maximus-kim-031575253",
     github: "MonstoBusta",
     twitter: "MonstoBusta",
     youtube: "MonstoBusta"
