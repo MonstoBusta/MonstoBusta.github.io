@@ -3,8 +3,9 @@ import React from "react"
 import {
   AiFillLinkedin,
   AiOutlineGithub,
-  AiOutlineInstagram,
   AiOutlineMail,
+  AiFillTwitterCircle,
+  AiFillYoutube,
 } from "react-icons/ai"
 import { CONFIG } from "site.config"
 import { Emoji } from "src/components/Emoji"
@@ -16,6 +17,26 @@ const ContactCard: React.FC = () => {
         <Emoji>💬</Emoji> Contact
       </StyledTitle>
       <StyledWrapper>
+        {CONFIG.profile.youtube && (
+          <a
+            href={`https://www.youtube.com/@${CONFIG.profile.youtube}`}
+            rel="noreferrer"
+            target="_blank"
+          >
+            <AiFillYoutube className="icon" />
+            <div className="name">youtube</div>
+          </a>
+        )}
+        {CONFIG.profile.twitter && (
+          <a
+            href={`https://www.twitter.com/${CONFIG.profile.twitter}`}
+            rel="noreferrer"
+            target="_blank"
+          >
+            <AiFillTwitterCircle className="icon" />
+            <div className="name">twitter</div>
+          </a>
+        )}
         {CONFIG.profile.github && (
           <a
             href={`https://github.com/${CONFIG.profile.github}`}
@@ -24,16 +45,6 @@ const ContactCard: React.FC = () => {
           >
             <AiOutlineGithub className="icon" />
             <div className="name">github</div>
-          </a>
-        )}
-        {CONFIG.profile.instagram && (
-          <a
-            href={`https://www.instagram.com/${CONFIG.profile.instagram}`}
-            rel="noreferrer"
-            target="_blank"
-          >
-            <AiOutlineInstagram className="icon" />
-            <div className="name">instagram</div>
           </a>
         )}
         {CONFIG.profile.email && (

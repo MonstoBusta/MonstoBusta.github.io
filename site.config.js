@@ -6,16 +6,27 @@ const CONFIG = {
     role: "Sound Designer",
     bio: "Hello! My name is Max. I go by MonstoBusta online.",
     email: "monstobusta@gmail.com",
-    linkedin: "Maximus Kim",
+    linkedin: "MaximusKim",
     github: "MonstoBusta",
-    instagram: "",
+    twitter: "MonstoBusta",
+    youtube: "MonstoBusta"
   },
-  projects: [
-    {
-      name: `Maximus Kim Sound`,
-      href: "https://github.com/MonstoBusta/MyWebsiteAndBlog",
-    },
-  ],
+
+  // projects: [
+  //   {
+  //     name: `YouTube`,
+  //     href: "https://www.youtube.com/channel/UCKijqvTtUZxr8ZCHeIHfB-w",
+  //   },
+  //   {
+  //     name: 'Twitter',
+  //     href: "https://twitter.com/MonstoBusta"
+  //   },
+  //   {
+  //     name: 'AirWiggles'
+  //     href: "https://www.airwiggles.com/u/49756b14"
+  //   },
+  // ],
+
   // blog setting (required)
   blog: {
     title: "maximuskimsound",
