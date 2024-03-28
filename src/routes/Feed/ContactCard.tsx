@@ -14,7 +14,7 @@ const ContactCard: React.FC = () => {
   return (
     <>
       <StyledTitle>
-        <Emoji>💬</Emoji> Contact
+        <Emoji>🔗</Emoji> Links
       </StyledTitle>
       <StyledWrapper>
         {CONFIG.profile.youtube && (
