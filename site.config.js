@@ -30,7 +30,7 @@ const CONFIG = {
 
   // blog setting (required)
   blog: {
-    title: "Maximus Kim Sound",
+    title: "Maximus Kim",
     description: "A Sound Designer's Sound Designing Journey",
     theme: "dark"
   },
