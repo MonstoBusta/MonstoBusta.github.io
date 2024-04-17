@@ -1,9 +1,6 @@
 # *
 User-agent: *
-Allow: /
-
-# Host
-Host: https://morethan-log.vercel.app
+Disallow: /
 
 # Sitemaps
-Sitemap: https://morethan-log.vercel.app/sitemap.xml
+Sitemap: https://maximuskimsound.com/sitemap.xml
