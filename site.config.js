@@ -1,31 +1,43 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "morethanmin",
+    name: "Maximus Kim",
     image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "frontend developer",
-    bio: "I develop everything using node.",
-    email: "morethanmin.dev@gmail.com",
-    linkedin: "morethanmin",
-    github: "morethanmin",
-    instagram: "",
+    nick: "MonstoBusta",
+    role: "Sound Designer",
+    bio: "Hello! My name is Max. I go by MonstoBusta online.",
+    email: "monstobusta@gmail.com",
+    linkedin: "maximuskim",
+    github: "MonstoBusta",
+    twitter: "MonstoBusta",
+    youtube: "MonstoBusta"
   },
-  projects: [
-    {
-      name: `morethan-log`,
-      href: "https://github.com/morethanmin/morethan-log",
-    },
-  ],
+
+  // projects: [
+  //   {
+  //     name: `YouTube`,
+  //     href: "https://www.youtube.com/channel/UCKijqvTtUZxr8ZCHeIHfB-w",
+  //   },
+  //   {
+  //     name: 'Twitter',
+  //     href: "https://twitter.com/MonstoBusta"
+  //   },
+  //   {
+  //     name: 'AirWiggles'
+  //     href: "https://www.airwiggles.com/u/49756b14"
+  //   },
+  // ],
+
   // blog setting (required)
   blog: {
-    title: "morethan-log",
-    description: "welcome to morethan-log!",
-    scheme: "dark", // 'light' | 'dark' | 'system'
+    title: "Maximus Kim",
+    description: "A Sound Designer's Sound Designing Journey",
+    theme: "dark"
   },
 
   // CONFIG configration (required)
   link: "https://morethan-log.vercel.app",
-  since: 2022, // If leave this empty, current year will be used.
+  since: 2024, // If leave this empty, current year will be used.
   lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
 
@@ -54,7 +66,7 @@ const CONFIG = {
     },
   },
   utterances: {
-    enable: true,
+    enable: false,
     config: {
       repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "",
       "issue-term": "og:title",
@@ -69,7 +81,7 @@ const CONFIG = {
     },
   },
   isProd: process.env.VERCEL_ENV === "production", // distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)
-  revalidateTime: 21600 * 7, // revalidate time for [slug], index
+  revalidateTime: 1, // revalidate time for [slug], index
 }
 
 module.exports = { CONFIG }
