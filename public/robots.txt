@@ -1,6 +1,0 @@
-# *
-User-agent: *
-Disallow: /
-
-# Sitemaps
-Sitemap: https://maximuskimsound.com/sitemap.xml
